@@ -4,7 +4,7 @@ requirejs.config({
 
 require(['sort'], function(sort) {
 
-	sort.age(19);
-	sort.name("Matheus");
+	console.log(sort.insertion([9,3,2,4,6,8,7,1,5]));
+
 
 });
