@@ -1,4 +1,4 @@
-/** 
+/**
 * Name: Sort algorithms
 * @author: Matheus Lucca do Carmo (matheuslc)
 * @version: 0.1
@@ -23,14 +23,14 @@ define(function() {
     for(i = 0; i < size; i++) {
       j = i - 1;
       now = items[i];
-      
+
       while(now < items[j] ) {
         items[j+1] = items[j];
         j--;
       }
-      
+
       items[j+1] = now;
-    
+
     }
 
     return items;
