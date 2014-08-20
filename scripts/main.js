@@ -4,6 +4,6 @@ requirejs.config({
 
 require(['basiceletricity'], function(eletricity) {
 
-	console.log(eletricity.tension(10, 5));
+  console.log(eletricity.tension(10, 5));
 
 });
