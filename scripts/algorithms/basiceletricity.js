@@ -58,7 +58,7 @@ define(function() {
     resistence: function(v, i) {
 
       return (v / i).toFixed(3) + " Ohms";
-    }
+    },
 
     /*
      * Current Calc
