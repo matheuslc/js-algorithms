@@ -1,4 +1,6 @@
 {
   "indent": 2,
-  "white": true
+  "white": true,
+  "camelcase": true,
+  "asi": true
 }
