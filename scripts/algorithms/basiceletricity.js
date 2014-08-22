@@ -10,11 +10,9 @@ define(function() {
 
     /*
      * Specific Material Resistence Table
-     * Note: Specifc resistence in 20º
+     * Note: Specifc resistence in 20ºC
     */
-    specificMaterialResistence: function() {
-
-      return {
+    specificMaterialResistence: {
         aluminum: 0.0292,
         bronze: 0.067,
         hardCopper: 0.178,
@@ -32,8 +30,6 @@ define(function() {
         platinum: 0.106,
         tungsten: 0.055,
         zinc: 0.056
-      }
-
     },
 
     /*

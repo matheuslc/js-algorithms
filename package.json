@@ -2,9 +2,9 @@
   "name": "js-algorithms",
   "version": "0.0.1",
   "description": "A set of classic computer science algorithms made with Javascript",
-  "main": "Gruntfile.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp ci"
   },
   "repository": {
     "type": "git",
